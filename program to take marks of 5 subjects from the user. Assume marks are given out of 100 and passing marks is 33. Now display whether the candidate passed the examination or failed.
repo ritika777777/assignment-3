@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+
+float s1,s2,s3,s4,s5,all_sub;
+printf("enter the marks of five students");
+scanf("%f%f%f%f%f",&s1,&s2,&s3,&s4,&s5);
+all_sub=s1+s2+s3+s4+s5/5;
+if(all_sub<=100 && all_sub>33){
+printf("student is passed");
+}
+else{
+    printf("student is failed");
+}
+return 0;
+}
+
