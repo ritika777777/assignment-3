@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<tspi.h>
+int main()
+{
+char ch;
+printf("enter a character: ");
+scanf("%d",&ch);
+    if(ch>0 && ch<9){
+        printf("it is a digit");
+    }
+    else if(isupper(ch)){
+        printf("it is a uppercase character");
+    }
+    else if(islower(ch)){
+        printf("it is a lower case character");
+    }
+    else{
+        printf("special symbole");
+    }
+            return 0;
+}
+
